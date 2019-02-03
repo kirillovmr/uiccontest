@@ -12,12 +12,26 @@ body {
   background: rgba(255,255,255,.8) !important;
 }
 .bg-black {
-  background: rgba(0,0,0,.8) !important;
+  background: rgba(21, 21, 21, 0.9) !important;
 }
 .fixed-height {
   max-height: 288px;
   overflow-x: scroll;
 }
-.fixed-height img {
+.block-img {
   width: 100%;
+}
+.btn {
+  border-radius: 30px !important;
+}
+.small-xs {
+  font-size: .5em;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
 }
