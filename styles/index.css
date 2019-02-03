@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-row {
+  min-height: 150px;
+}
+.bg-white {
+  background: rgba(255,255,255,.8) !important;
+}
+.bg-black {
+  background: rgba(0,0,0,.8) !important;
+}
+.fixed-height {
+  max-height: 288px;
+  overflow-x: scroll;
+}
+.fixed-height img {
+  width: 100%;
+}
